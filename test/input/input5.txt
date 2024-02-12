@@ -1,0 +1,21 @@
+5
+2 10
+FF AA 
+FF AA 
+II FF 
+KK AA 
+FF GG 
+AA BB 
+CC FF
+GG GG
+II AA
+AA II
+4
+FF II 
+-7
+FF AA 
+3
+FF ff
+22
+AA BB 
+-27

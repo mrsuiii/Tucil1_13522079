@@ -1,0 +1,35 @@
+matriks permainan:
+AD KC AD AD BC KF KE AD 
+KC KF KE KF CD KF KE KF 
+CD KF CD KF BC BC AB AD 
+KF BC KC KE BC AD KC KF 
+KF BC BC CD KF KE BC KE 
+CD KC KE AD BC KF BC AD 
+KC BC BC KC KE AB CD CD 
+AB KE KF AB AB KE KF KF 
+sequence:
+KF KC 
+27
+CD CD AD KF 
+35
+KF BC BC 
+27
+BC BC 
+42
+AB BC AB AB 
+96
+
+279
+AD KF BC BC BC BC BC BC BC 
+1, 1
+1, 4
+2, 4
+2, 5
+7, 5
+7, 6
+5, 6
+5, 3
+6, 3
+
+
+402375 ms

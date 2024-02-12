@@ -235,7 +235,6 @@ int main(){
 
         }
         cout << optimum_reward<<"\n";
-        cout << "hello"<<"\n";
         if(optimal_buff.size()!=0){
             
         for(auto s: optimal_buff){

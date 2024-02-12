@@ -1,0 +1,8 @@
+cli
+7       
+AB CD BC AD KE KC KF
+
+9
+8 8
+5
+6
