@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-
 #include<fstream>
 #include<ctime>
 #include<chrono>
@@ -85,14 +84,12 @@ int main(){
                 checked[i].push_back(0);
             }
         }
-        
         cin >> n_seq;
         seq.resize(n_seq);
         cin >> seq_length;
         for(int i=0;i<n_seq;i++){
             int range= seq_length-1;
             int r = rand()% range + 2;
-            
             while(r--){
                 int random = rand()%token_size;
                 seq[i].first.push_back(tokens[random]);
@@ -110,9 +107,7 @@ int main(){
                 optimal_buff = buff1;
                 optimal_path = path1;
             }
-
         }
-        
         cout << "matriks permainan:\n";
         for(int i=0;i<n;i++){
             for(int j=0;j<m ;j++){
@@ -164,7 +159,6 @@ int main(){
         for(int i=0;i<n_seq;i++){
             for(auto s: seq[i].first){
                 outputFile << s<< " ";
-
             }
             outputFile << "\n"<<seq[i].second;
             outputFile <<"\n";
@@ -179,6 +173,7 @@ int main(){
             outputFile << "\n";
         }
         outputFile<<"\n\n"<< duration.count()<<" ms"<<"\n";
+        outputFile.close();
         }
         }
         }else if(choice=="txt"){
@@ -201,7 +196,6 @@ int main(){
             for(int i=0;i<n;i++){
                 getline(inp,line);
                 istringstream iss(line);
-                
                 for(int j=0;j<m;j++){
                     string token;
                     iss >> token;
@@ -221,8 +215,7 @@ int main(){
                 string token ; 
                 stringstream ss(line);
                 while(ss >> token){
-                    seq[i].first.push_back(token);
-                    
+                    seq[i].first.push_back(token);    
                 }
                 getline(inp,line);
                 int reward;
@@ -241,7 +234,6 @@ int main(){
             }
 
         }
-        
         cout << optimum_reward<<"\n";
         cout << "hello"<<"\n";
         if(optimal_buff.size()!=0){
@@ -280,10 +272,6 @@ int main(){
         outputFile<<"\n\n"<< duration.count()<<" ms"<<"\n";
         outputFile.close();
         }
+        }   
         }
-            
-            
-        }
-
-
 }
